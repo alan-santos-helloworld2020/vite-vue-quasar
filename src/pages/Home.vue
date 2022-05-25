@@ -1,18 +1,17 @@
 <template>
-  <div class="row">
-      <div class="col-12">
-          <p class="text-center text-h4 text-bold">Home</p>
-      </div>
-  </div>
+  <q-page class="flex flex-center">
+    <div class="flex items-center">
+      <q-img src="favicon.ico" width="50px" class="q-mr-xs" />
+      <span class="text-bold text-h4">Vue.js</span>
+    </div>
+  </q-page>
 </template>
 
 <script>
 export default {
-    name:"Home"
-
-}
+  name: "Home",
+};
 </script>
 
 <style>
-
 </style>
